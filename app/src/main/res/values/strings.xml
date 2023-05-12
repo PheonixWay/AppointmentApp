@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Appointment</string>
+    <string name="logo_name">APPOINTMENT APP</string>
+    <string name="login">Login</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="forgot_password">Forgot password ?</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="enter_your_gmail">Enter your Gmail</string>
+</resources>

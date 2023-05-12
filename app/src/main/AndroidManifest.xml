@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/fui_ic_check_circle_black_128dp"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Appointment"
+        tools:targetApi="31">
+        <activity
+            android:name=".ConfirmedAppointmentByBusiness"
+            android:exported="false" />
+        <activity
+            android:name=".RejectedAppointmentByBusiness"
+            android:exported="false" />
+        <activity
+            android:name=".RequestedAppointmentBusiness"
+            android:exported="false" />
+        <activity
+            android:name=".CustomerUserProfile"
+            android:exported="false" />
+        <activity
+            android:name=".FillDataProfile"
+            android:exported="false" />
+        <activity
+            android:name=".BusinessProfile"
+            android:exported="false" />
+        <activity
+            android:name=".Status"
+            android:exported="false" />
+        <activity
+            android:name=".LoginUsingPhoneNumber"
+            android:exported="false" />
+        <activity
+            android:name=".pickdate"
+            android:exported="false" />
+        <activity
+            android:name=".createAppointment"
+            android:exported="false" />
+        <activity
+            android:name=".CreateAccountAsBusiness"
+            android:exported="false" />
+        <activity
+            android:name=".CreatAccountAsAppointment"
+            android:exported="false" />
+        <activity
+            android:name=".ModeSelect"
+            android:exported="false" />
+        <activity
+            android:name=".BussinesDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CustomerDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

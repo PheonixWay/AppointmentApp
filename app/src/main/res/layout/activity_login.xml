@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".LoginActivity"
+android:background="@color/bgc"
+    >
+
+<TextView
+    android:id="@+id/sign_in"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="58dp"
+    android:layout_marginTop="58dp"
+    android:layout_marginEnd="58dp"
+    android:layout_marginBottom="58dp"
+    android:gravity="center"
+    android:fontFamily="sans-serif-smallcaps"
+    android:text="@string/login"
+    android:textColor="@color/red_700"
+    android:textSize="35sp"
+    android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/gmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sign_in"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="18dp"
+        app:boxCornerRadiusBottomEnd="5dp"
+        app:boxCornerRadiusBottomStart="5dp"
+        app:boxCornerRadiusTopEnd="5dp"
+        app:boxCornerRadiusTopStart="5dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/gmail_id"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:hint="Gmail"
+            android:textColorHint="@color/white"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            >
+
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gmail"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="18dp"
+        app:passwordToggleEnabled="true"
+        app:boxCornerRadiusBottomEnd="5dp"
+        app:boxCornerRadiusBottomStart="5dp"
+        app:boxCornerRadiusTopEnd="5dp"
+        app:boxCornerRadiusTopStart="5dp"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/pass_id"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:hint="Password"
+            android:textColorHint="@color/white"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:inputType="textPassword"
+            >
+
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+<com.google.android.material.button.MaterialButton
+    android:id="@+id/login_btn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/forgot_pass"
+    android:layout_centerHorizontal="true"
+    android:paddingStart="30dp"
+    android:paddingEnd="30dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginTop="20sp"
+    android:layout_marginEnd="20dp"
+    android:layout_marginBottom="20dp"
+    android:backgroundTint="#DA4343"
+    android:text="@string/login" />
+
+<TextView
+    android:id="@+id/forgot_pass"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/password"
+    android:layout_marginTop="-10dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:layout_marginBottom="20dp"
+    android:text="@string/forgot_password"
+    android:textColor="#EFEFEF"
+    android:fontFamily="sans-serif-smallcaps"
+    android:textSize="17sp"/>
+
+<TextView
+    android:id="@+id/createAc"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/login_btn"
+    android:layout_centerHorizontal="true"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="7dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="10dp"
+    android:fontFamily="sans-serif-smallcaps"
+    android:text="@string/create_new_account"
+    android:textColor="@color/white"
+    android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/Tvlogin_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/createAc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Login as Business"
+        android:textStyle="bold"
+        android:textColor="@color/red_700"
+        android:textSize="25dp"/>
+
+
+</RelativeLayout>

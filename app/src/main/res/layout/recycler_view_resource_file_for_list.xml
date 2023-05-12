@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@drawable/bgrecycler">
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:fontFamily="sans-serif-condensed-medium"
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Business Name:-"
+            android:textColor="@color/red_700"
+            android:textSize="24dp"/>
+        <TextView
+            android:padding="5dp"
+            android:layout_marginStart="5dp"
+            android:id="@+id/busines_name_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wani public school"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reason:-"
+            android:textColor="@color/red_700"
+            android:textSize="20sp"
+            android:padding="5dp"/>
+        <TextView
+            android:padding="5dp"
+            android:layout_marginStart="5dp"
+            android:id="@+id/reason_ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fever"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:fontFamily="sans-serif-condensed-medium"
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time:-"
+            android:textColor="@color/red_700"
+            android:textSize="20sp"/>
+        <TextView
+            android:padding="5dp"
+            android:textColor="@color/white"
+            android:layout_marginStart="5dp"
+            android:id="@+id/time_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10clock"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_marginStart="10dp"
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date:-"
+            android:textColor="@color/red_700"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+        <TextView
+            android:padding="5dp"
+            android:layout_marginStart="5dp"
+            android:id="@+id/date_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15-4-2023 "
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status:-"
+            android:textColor="@color/red_700"
+            android:textSize="20sp"
+            android:padding="5dp"/>
+        <TextView
+            android:padding="5dp"
+            android:layout_marginStart="5dp"
+            android:id="@+id/status_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pending"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/white"
+        android:layout_marginBottom="30dp"/>
+
+
+
+
+</LinearLayout>
