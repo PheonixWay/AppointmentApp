@@ -82,6 +82,13 @@ public class CreatAccountAsAppointment extends AppCompatActivity {
                                     @Override
                                     public void onComplete(@NonNull Task<AuthResult> task) {
                                         if (task.isSuccessful()){
+                                            email.setText("");
+                                            password.setText("");
+                                            cPassword.setText("");
+                                            registerBtn.setEnabled(false);
+                                            email.setEnabled(false);
+                                            password.setEnabled(false);
+                                            cPassword.setEnabled(false);
                                             cName.setEnabled(true);
                                             cProfession.setEnabled(true);
                                             cAddress.setEnabled(true);
