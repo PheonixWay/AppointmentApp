@@ -20,21 +20,20 @@
 
         </View>
 
+
         <TextView
-            android:layout_marginTop="-80dp"
             android:id="@+id/Signup"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-80dp"
+            android:fontFamily="sans-serif-smallcaps"
             android:gravity="center_horizontal"
             android:padding="5dp"
-            android:layout_gravity="center"
             android:text="Creating Appointment"
-            android:fontFamily="sans-serif-smallcaps"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="21sp" />
-
-
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
